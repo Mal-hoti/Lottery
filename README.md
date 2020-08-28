@@ -1,6 +1,7 @@
 # Lottery
 My python code of a lottery game
 
+///////////////////////
 import random
 import time
 import math
@@ -57,8 +58,8 @@ def write_numbers():
 
 write_numbers()
 
-#print(math.factorial(5)/match.factorial
 list_of_num.sort()
+
 matching = set(list_of_num).intersection(set(seperated_numbers))   # compares the two list an prints the similar values only
 
 print("\nLottery numbers are...\n")
@@ -69,13 +70,6 @@ print("\nYour numbers are...\n")
 time.sleep(0.5)
 print("/".join(map(str,seperated_numbers)))
 time.sleep(2)
-
-
-
-    
-
-
-print
 
     
 print("\nYou have got" , len(matching) , "matching!!")
