@@ -1,7 +1,7 @@
 # Lottery
 My python code of a lottery game
 
-'
+'''
 import random
 import time
 import math
@@ -89,7 +89,7 @@ if play_again == 1:
     write_numbers()
 else:
     quit()
-'
+'''
 
       
 
