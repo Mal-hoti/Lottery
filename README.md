@@ -10,7 +10,7 @@ input_is_max = True
 length_of_lottery = 6
 list_of_num = []
 seperated_numbers = []
-print('Welcome to lottery. pick numbers form 1-49 and at the end write your bonus ball')
+print('Welcome to lottery. Pick numbers from',min_num,'-',max_num,' and at the end write your bonus ball')
 
 
 while len(list_of_num) <=length_of_lottery :
